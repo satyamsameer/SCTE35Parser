@@ -1211,7 +1211,6 @@ public:
 	*/
 	bool ParseBase64(const std::string& sInput);
 
-	//Main function to get data in text format
 	/*!	\brief Function to get full SCTE-35 parameters parsed as string textual data.
 	*	\param bIfSingleLine to whether get textual data in single-line or multi-line.
 	*	\returns full SCTE-35 parameters textual data as string stream.
@@ -1222,7 +1221,6 @@ public:
 	*/
 	void ResetValue();
 
-	//Function to remove white-spaces in string
 	/*!	\brief Function to remove white-spaces from input string data.
 	*	\param sParam an input string data (this variable is modified inside this function).
 	*/
