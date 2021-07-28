@@ -33,7 +33,7 @@ License as provided with the repository.
 
 ## Compilation
 
-All the steps can be done on Linux and Mac OS systems as well with minor differences through supported toolchains and packages on those platforms. First delete all the contents of directories "build" and "doc" before performing below steps.
+All the steps can be done on Linux and Mac OS systems as well with minor differences through supported toolchains and packages on those platforms. First make new directories "build" and "doc" or delete all the contents of directories "build" and "doc" before performing below steps in source root directory.
 
 On Windows System (using MinGW) if proper cmake environment path is setup use the below mentioned commands from source root directory :
 
