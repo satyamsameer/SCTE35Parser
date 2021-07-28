@@ -1,4 +1,5 @@
-# Introduction
+# SCTE35Parser
+## Introduction
 
 SCTE35Parser is a SCTE-35 textual data parser written in C++ language. It supports parsing of all the splice informations available in SCTE-35 ISBE broadcasting standard. It supports parsing of the below mentioned textual data types :
 
@@ -21,16 +22,16 @@ It can also be used to parse custom SCTE-35 cue data encoded in any of the above
 
 Beyond this "README.md" file, API level documentation can be generated via Doxygen (see "Documentation" section below).
 
-# Version
+## Version
 
 Initial version 1.0.0.0
 
-# License
+## License
 
 License as provided with the repository.
 
 
-# Compilation
+## Compilation
 
 All the steps can be done on Linux and Mac OS systems as well with minor differences through supported toolchains and packages on those platforms. First delete all the contents of directories "build" and "doc" before performing below steps.
 
@@ -41,7 +42,7 @@ On Windows System (using MinGW) if proper cmake environment path is setup use th
     cmake --build build --config Release --target all -j 10 --
 
 
-# Documentation
+## Documentation
 
 On Windows System (using MinGW) if proper doxygen environment path is setup then to get the source code documentation do below commands from source root directory :
 
@@ -57,7 +58,7 @@ To generate PDF documentation from latex file (using MinGW) do below commands fr
     make
 
 
-# Run
+## Run
 
 To run the console application on Windows System do below commands from source root directory :
 
