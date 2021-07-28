@@ -1,0 +1,15 @@
+#Ignore JSON files
+
+*.json
+
+#Ignore EXE files
+
+*.exe
+
+#Ignore BAT files 
+
+*.bat
+
+#Ignore Directories
+
+.vscode
